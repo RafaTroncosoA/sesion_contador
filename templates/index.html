@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+</head>
+<body>
+    <div class="container">
+        <h1>{{session.intentos}}</h1>
+
+        <form action='/sesion'>
+            <input type='submit' value='refresh'>
+        </form>
+        <form action='/cierre_sesion'>
+                <input type='submit' value='cierre sesion'>
+        </form>
+        <form action='/mas_dos'>
+                    <input type='submit' value='+2'>
+            </form>
+    </div>
+</body>
+</html>
